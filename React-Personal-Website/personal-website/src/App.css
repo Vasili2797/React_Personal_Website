@@ -1,0 +1,201 @@
+.App {
+  margin-top: 50px;
+  padding-top: 50px;
+  margin-left: 0px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+img {
+  height: 5vh;
+  display: block;
+}
+
+.image__description {
+  font-weight: bold;
+  color: oldlace;
+}
+
+figure {
+  text-align: center;
+  margin-block-end: 16px;
+  margin-block-start: 16px;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
+}
+
+figcaption {
+  position: relative;
+}
+
+.right {
+  /* display: inline-flex; */
+  text-align: right;
+  font-size: 20px;
+}
+
+#name,
+#email,
+#Services {
+  text-transform: capitalize;
+}
+
+p {
+  line-height: 1.5;
+}
+
+#indexPageImage {
+  height: 300px;
+  width: 300px;
+}
+
+label {
+  margin: 5px;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.grid-item {
+  padding: 30px;
+}
+
+.grid_items {
+  padding: 3.75%;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-column-gap: 0;
+  grid-row-gap: 20px;
+}
+
+.grid_items > div {
+  background-color: RoyalBlue;
+  padding: 10px;
+}
+
+.grid_items > div:nth-child(3n + 2) {
+  background-color: DodgerBlue;
+}
+
+.grid_items > div:nth-child(3n) {
+  background-color: DeepSkyBlue;
+}
+
+@media only screen and (min-width: 640px) {
+  .grid_items {
+    grid-template-columns: 47.5% 47.5%;
+    grid-column-gap: 5%;
+    grid-row-gap: 40px;
+  }
+  .grid_items > div {
+    padding: 20px;
+  }
+}
+
+@media only screen and (min-width: 981px) {
+  .grid_items {
+    grid-template-columns: 30% 30% 30%;
+    grid-row-gap: 50px;
+  }
+  .grid_items > div {
+    padding: 30px;
+  }
+}
+
+.image {
+  /*This is the one that controls images of projects*/
+  position: relative;
+  min-width: 45px;
+  max-width: 100%;
+}
+
+.image > img {
+  /*The images themselves*/
+  display: flex;
+  width: 100%;
+  object-fit: cover;
+}
+
+.image__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 93%;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+.image__overlay--blur {
+  backdrop-filter: blur(5px);
+}
+
+.image__overlay > * {
+  transform: translateY(20px);
+  transition: transform 0.25s;
+}
+
+.image__overlay:hover > * {
+  transform: translateY(0);
+}
+
+.image__overlay:hover {
+  opacity: 1;
+}
+
+.image__title {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.image__description {
+  font-size: 1.25em;
+  margin-top: 0.25em;
+  text-align: center;
+}
