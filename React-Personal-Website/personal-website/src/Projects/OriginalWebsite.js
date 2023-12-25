@@ -7,7 +7,7 @@ const OriginalWebSite = () => {
       <figure>
         <ul>
           <a
-            href="https://github.com/Vasili2797/Personal_Website/tree/main/newWebsite"
+            href="https://github.com/Vasili2797/Personal_Website/tree/develop/newWebsite"
             target="_blank"
             rel="noopener noreferrer"
           >
