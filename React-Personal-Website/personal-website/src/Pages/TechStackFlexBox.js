@@ -2,7 +2,7 @@ import HTMLImage from "../Files/image/HTML.png";
 import CSSIMAGE from "../Files/image/CSSIMAGE.webp";
 import JavaScriptImage from "../Files/image/javascript-logo-transparent-logo-javascript-images-3.png";
 import JavaImage from "../Files/image/Java_icon.jpg";
-import SQLImage from "../Files/image/kisspng-microsoft-azure-sql-database-microsoft-azure-sql-d-postani-spletni-razvijalec-izberite-svojo-uno-5cfe7bd5b6e377.6992930615601817177491.jpg";
+import SQLImage from "../Files/image/SQL_Icon.jpg";
 import MySQLImage from "../Files/image/MySQL-Logo.png";
 import PythonImage from "../Files/image/Python-logo-notext.svg.png";
 import GitImage from "../Files/image/github.png";
