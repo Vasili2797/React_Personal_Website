@@ -18,7 +18,7 @@ const Home = () => {
   const componentContent = (
     <>
       <div>
-        <div className="container m-2">
+        {/* <div className="container m-2">
           <div className="item">
             <img
               src={IndexImage}
@@ -27,7 +27,7 @@ const Home = () => {
               id="indexPageImage"
             />
           </div>
-        </div>
+        </div> */}
       </div>
       <Row className="text-center mt-3">
         <h1>Welcome to The Personal Website of Vasili Nashvilli</h1>
