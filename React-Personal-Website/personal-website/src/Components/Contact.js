@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Col, Row } from "react-bootstrap";
 
 const standardPanel = (contentVariable) => {
@@ -27,13 +28,15 @@ const Contact = () => {
           <form
             action="https://formsubmit.co/nashvilliv1@gmail.com"
             method="POST"
+            id="contact-form"
           >
             <label for="name" id="name">
               name
             </label>
+
             <input
               name="name"
-              value=""
+              defaultValue=""
               type="name"
               id="name"
               placeholder="name"
@@ -46,7 +49,7 @@ const Contact = () => {
               </label>
               <input
                 name="email"
-                value=""
+                defaultValue=""
                 type="email"
                 id="email"
                 pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"
