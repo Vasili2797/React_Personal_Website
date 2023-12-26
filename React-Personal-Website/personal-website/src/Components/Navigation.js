@@ -2,15 +2,8 @@ import Container from "react-bootstrap/Container";
 import {
   Navbar,
   Nav,
-  Dropdown,
-  DropdownButton,
-  ButtonGroup,
 } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import * as data from "../JSON/navigationLinks.json";
-
-const LinksString = JSON.stringify(data);
-const links = JSON.parse(LinksString).links;
 
 const Navigation = () => {
   return (

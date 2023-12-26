@@ -1,5 +1,4 @@
 import { Route, Routes } from "react-router-dom";
-import About from "../Pages/About";
 import GitHub from "../Pages/GitHub";
 import LinkedIn from "../Pages/LinkedIn";
 import MyProjects from "../Pages/MyProjects";

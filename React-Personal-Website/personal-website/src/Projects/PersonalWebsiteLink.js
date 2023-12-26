@@ -29,18 +29,6 @@ const PersonalWebsiteLink = () => {
               </div>
             </div>
           </a>
-          {/* <div>
-            <a
-              className="right"
-              onClick={() => {
-                console.log(
-                  "When Clicked, it will send the person to live display"
-                );
-              }}
-            >
-              Live
-            </a>
-          </div> */}
         </ul>
       </figure>
     </div>

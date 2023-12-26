@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import { Row, Col } from "react-bootstrap";
-import IndexImage from "../Files/image/index_picture.jpg";
-import Image from "react-bootstrap/Image";
 import About from "./About";
 
 const standardPanel = (contentVariable) => {
@@ -17,18 +15,7 @@ const standardPanel = (contentVariable) => {
 const Home = () => {
   const componentContent = (
     <>
-      <div>
-        {/* <div className="container m-2">
-          <div className="item">
-            <img
-              src={IndexImage}
-              alt="Index Image"
-              className="mx-auto d-block"
-              id="indexPageImage"
-            />
-          </div>
-        </div> */}
-      </div>
+      <div></div>
       <Row className="text-center mt-3">
         <h1>Welcome to The Personal Website of Vasili Nashvilli</h1>
       </Row>

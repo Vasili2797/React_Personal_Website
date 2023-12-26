@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { Row, Col } from "react-bootstrap";
 import "../../src/MyProjects.css";
 import StudentDataBase from "../Projects/StudentDataBase";
@@ -24,11 +24,6 @@ const MyProjects = () => {
       <Row className="text-center mt-3">
         <h1>The Following Are Few of My Personal Projects Hosted on GitHub</h1>
       </Row>
-      {/* <div className="container">
-        <div className="small-box dark-box mx-auto text-center">
-          Small Box / Dark Box
-        </div>
-      </div> */}
       <Row className="mx-auto justify-content-center">
         <Col
           className="mx-auto text-center"

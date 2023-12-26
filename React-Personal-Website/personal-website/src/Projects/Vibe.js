@@ -16,7 +16,6 @@ const Vibe = () => {
                 style={{ height: "300px", width: "450px", display: "block" }}
                 fluid
                 alt="React Personal Webstite image"
-                // style=" min-width: 30px; max-width: 450; height: 300px;"
               />
               <figcaption>Vibe Client Program</figcaption>
 
@@ -29,18 +28,6 @@ const Vibe = () => {
               </div>
             </div>
           </a>
-          {/* <div>
-            <a
-              className="right"
-              onClick={() => {
-                console.log(
-                  "When Clicked, it will send the person to live display"
-                );
-              }}
-            >
-              Live
-            </a>
-          </div> */}
         </ul>
       </figure>
     </div>
