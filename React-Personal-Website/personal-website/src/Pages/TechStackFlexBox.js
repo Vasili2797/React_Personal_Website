@@ -15,17 +15,6 @@ const links = JSON.parse(techStackImages).TechStackIcons;
 function ResponsiveAutoExample() {
   return (
     <>
-      {/* <Table responsive>
-        <tbody>
-          <tr>
-            <td>
-              <img src={HTMLImage} alt="HTML image" title="HTML" />
-              <p>HTML5</p>
-            </td>
-          </tr>
-        </tbody>
-      </Table> */}
-
       <div className="d-flex justify-content-center">
         <div className="grid-items">
           <figure>

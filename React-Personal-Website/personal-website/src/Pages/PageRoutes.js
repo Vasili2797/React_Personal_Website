@@ -1,6 +1,4 @@
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import { UseForm } from "react-hook-form";
-import About from "./About";
 import GitHub from "./GitHub";
 import LinkedIn from "./LinkedIn";
 import MyProjects from "./MyProjects";
