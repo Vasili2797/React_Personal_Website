@@ -13,10 +13,7 @@ const CryptoCurrencyPortfolio = () => {
             <div className="image">
               <Image
                 src="https://images.pexels.com/photos/843700/pexels-photo-843700.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-                // height="300px"
-                // width="450px"
                 style={{ height: "300px", width: "450px", display: "block" }}
-                //   alt="cryptocurrency portfolio image"
                 fluid
                 alt="Cryptocurrency"
               />
@@ -33,18 +30,6 @@ const CryptoCurrencyPortfolio = () => {
               </div>
             </div>
           </a>
-          {/* <div>
-            <a
-              className="right"
-              onClick={() => {
-                console.log(
-                  "When Clicked, it will send the person to live display"
-                );
-              }}
-            >
-              Live
-            </a>
-          </div> */}
         </ul>
       </figure>
     </div>

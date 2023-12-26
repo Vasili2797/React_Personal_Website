@@ -16,7 +16,6 @@ const MachineLearning = () => {
                 style={{ height: "300px", width: "450px", display: "block" }}
                 fluid
                 alt="credit risk analysis using algorithms"
-                // style=" min-width: 30px; max-width: 450; height: 300px;"
               />
               <figcaption>machine learning exercise in python</figcaption>
 
@@ -29,18 +28,6 @@ const MachineLearning = () => {
               </div>
             </div>
           </a>
-          {/* <div>
-            <a
-              className="right"
-              onClick={() => {
-                console.log(
-                  "When Clicked, it will send the person to live display"
-                );
-              }}
-            >
-              Live
-            </a>
-          </div> */}
         </ul>
       </figure>
     </div>

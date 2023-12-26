@@ -16,7 +16,6 @@ const PersonalWebsiteLink = () => {
                 style={{ height: "300px", width: "450px", display: "block" }}
                 fluid
                 alt="React Personal Webstite image"
-                // style=" min-width: 30px; max-width: 450; height: 300px;"
               />
               <figcaption>Personal Website GitHub Link</figcaption>
 
