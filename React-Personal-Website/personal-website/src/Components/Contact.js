@@ -25,7 +25,7 @@ const Contact = () => {
           </p>
           <br />
           <form
-            action="https://formsubmit.co/bjornbjornssonn@gmail.com"
+            action="https://formsubmit.co/nashvilliv1@gmail.com"
             method="POST"
           >
             <label for="name" id="name">
