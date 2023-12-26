@@ -19,7 +19,7 @@ const OriginalWebSite = () => {
                 alt="Personal Website"
               />
               <figcaption style={{ textAlign: "center" }}>
-                personal website
+                old personal website
               </figcaption>
 
               <div class="image__overlay">
