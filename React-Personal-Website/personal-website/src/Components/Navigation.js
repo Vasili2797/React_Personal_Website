@@ -21,7 +21,7 @@ const Navigation = () => {
       className="bg-body-tertiary"
     >
       <Container>
-        <Navbar.Brand href="Home" className="navbar-brand">
+        <Navbar.Brand href="/" className="navbar-brand">
           Personal Webpage of Vasili Nashvilli
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
