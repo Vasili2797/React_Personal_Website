@@ -5,6 +5,7 @@ import StudentDataBase from "../Projects/StudentDataBase";
 import OriginalWebSite from "../Projects/OriginalWebsite";
 import MachineLearning from "../Projects/MachineLearning";
 import CryptoCurrencyPortfolio from "../Projects/CryptoCurrencyPortfolio";
+import PersonalWebsiteLink from "../Projects/PersonalWebsiteLink";
 
 const standardPanel = (contentVariable) => {
   return (
@@ -32,8 +33,8 @@ const MyProjects = () => {
           className="mx-auto text-center"
           style={{ display: "flex", justifyContent: "center" }}
         >
+          <PersonalWebsiteLink />
           <MachineLearning />
-          <OriginalWebSite />
         </Col>
       </Row>
       <Row className="mx-auto justify-content-center">
@@ -42,7 +43,7 @@ const MyProjects = () => {
           style={{ display: "flex", justifyContent: "center" }}
         >
           <StudentDataBase />
-          <CryptoCurrencyPortfolio />
+          <OriginalWebSite />
         </Col>
       </Row>
     </>
