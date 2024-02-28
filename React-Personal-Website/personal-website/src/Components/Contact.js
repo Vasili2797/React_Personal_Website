@@ -19,10 +19,10 @@ const Contact = () => {
         <Col xs={12} sm={6} md={8}>
           <h2>Contact</h2>
           <p>
-            Aspiring developer interested in helping companies make their dreams
-            come true and achieve their full potential. For all the services,
-            please include your name, email address, and reason for contact and
-            I will get back as soon as possible!
+            Developer interested in helping companies make their dreams come
+            true and achieve their full potential. For all the services, please
+            include your name, email address, and reason for contact and I will
+            get back as soon as possible!
           </p>
           <br />
           <form
