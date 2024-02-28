@@ -15,7 +15,7 @@ const ShoppingList = () => {
                 src="https://images.pexels.com/photos/1087727/pexels-photo-1087727.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                 style={{ height: "300px", width: "450px", display: "block" }}
                 fluid
-                alt="React Personal Webstite image"
+                alt="Shopping List Application image"
               />
               <figcaption>shopping list application</figcaption>
 
