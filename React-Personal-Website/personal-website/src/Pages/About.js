@@ -40,7 +40,7 @@ const aboutMeSection = () => {
         economics uniting the differences between the sciences of mathematics
         and finance. I am interested in different types of technologies and how
         it could improve the lives of many people in different fields of work. I
-        am a self-taught developer with knowledge in the following tech stack:
+        am a developer with knowledge in the following tech stack:
       </p>
       <ResponsiveAutoExample />
     </>
