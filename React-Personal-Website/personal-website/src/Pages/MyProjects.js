@@ -7,6 +7,7 @@ import MachineLearning from "../Projects/MachineLearning";
 import CryptoCurrencyPortfolio from "../Projects/CryptoCurrencyPortfolio";
 import PersonalWebsiteLink from "../Projects/PersonalWebsiteLink";
 import Vibe from "../Projects/Vibe";
+import ShoppingList from "../Projects/ShoppingList";
 
 const standardPanel = (contentVariable) => {
   return (
@@ -49,6 +50,14 @@ const MyProjects = () => {
         >
           <CryptoCurrencyPortfolio />
           <OriginalWebSite />
+        </Col>
+      </Row>
+      <Row className="mx-auto justify-content-center">
+        <Col
+          className="mx-auto text-center"
+          style={{ display: "flex", justifyContent: "center" }}
+        >
+          <ShoppingList />
         </Col>
       </Row>
     </>
