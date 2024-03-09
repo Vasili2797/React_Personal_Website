@@ -15,7 +15,6 @@ const standardPanel = (contentVariable) => {
 const Home = () => {
   const componentContent = (
     <>
-      <div></div>
       <Row className="text-center mt-3">
         <h1>Welcome to The Personal Website of Vasili Nashvilli</h1>
       </Row>

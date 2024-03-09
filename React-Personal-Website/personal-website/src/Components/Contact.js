@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Col, Row } from "react-bootstrap";
+import confirmation from "./ConfirmationLink";
 
 const standardPanel = (contentVariable) => {
   return (
@@ -12,7 +13,6 @@ const standardPanel = (contentVariable) => {
 };
 
 const Contact = () => {
-  console.log("Thank You");
   const componentContent = (
     <>
       <Row className="justify-content-center mt-5">
@@ -26,10 +26,17 @@ const Contact = () => {
           </p>
           <br />
           <form
-            action="https://formsubmit.co/nashvilliv1@gmail.com"
+            // target="_blank"
+            action="https://formsubmit.co/910d81f5f6a12396e7cc7c1ab5e5373f"
             method="POST"
             id="contact-form"
           >
+            <input type="hidden" name="_captcha" value="false"></input>
+            <input
+              type="hidden"
+              name="_next"
+              value="https://reactpersonalwebsitetesting.netlify.app/ConfirmationLink"
+            ></input>
             <label for="name" id="name">
               name
             </label>
