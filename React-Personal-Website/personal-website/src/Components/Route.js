@@ -6,6 +6,7 @@ import Resume from "../Pages/Resume";
 import Navigation from "./Navigation";
 import Home from "../Pages/Home";
 import Contact from "./Contact";
+import ConfirmationLink from "./ConfirmationLink";
 
 const Routing = () => {
   return (
@@ -23,6 +24,7 @@ const Routing = () => {
         <Route path="MyProjects" Component={MyProjects} />
         <Route path="Resume" Component={Resume} />
         <Route path="Contact" Component={Contact} />
+        <Route path="ConfirmationLink" Component={ConfirmationLink} />
       </Routes>
     </>
   );
